@@ -155,7 +155,7 @@ footer {
   nav {
     width: 70%;
     flex-direction: row;
-    text-align: right;
+    text-align: right-side;
     margin: -1rem 0 0 0;
   }
   nav a {

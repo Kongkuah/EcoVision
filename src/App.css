@@ -117,79 +117,87 @@ footer {
   font-size: 0.95rem;
 }
 
-/* Remove about image section completely */
-.about-section .about-content,
-.about-image-container,
-.about-image,
-.about-text {
-  all: unset;
-}
-@media (max-width: 700px) {
-  .logo {
-    width: 220px;
-  }
-  .section {
-    padding: 1.2rem 3vw;
-  }
-}
-/* --- Responsive: Tablet and Mobile --- */
+/* === Tablet responsiveness (max-width: 900px) === */
 @media (max-width: 900px) {
+  /* Make logo smaller and adjust its position for tablets */
   .logo {
     width: 160px;
     margin-top: -40px;
     margin-bottom: -50px;
   }
+  /* Make banner thinner for tablets */
   .banner,
   .banner-image {
     height: 70px;
   }
+  /* Slightly reduce nav margin for tablets */
   nav {
     margin-top: 20px;
   }
 }
 
+/* === Mobile responsiveness (max-width: 700px) === */
 @media (max-width: 700px) {
+  /* Stack header vertically and remove extra height */
   header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.5rem 2vw;
+    flex-direction: column;        /* Stack logo and nav on top of each other */
+    align-items: flex-start;       /* Align to left */
+    padding: 0.5rem 2vw;           /* Less padding for smaller screens */
     min-height: unset;
   }
+  /* Make logo even smaller and reset margins for phones */
   .logo {
-    width: 120px;
+    width: 120px;                  /* Logo is visible but not overpowering */
     margin: 0 0 0.5rem 0;
+    display: block;
   }
+  /* Make nav full width and move below the logo, align left */
   nav {
     width: 100%;
     text-align: left;
     margin: 1rem 0 0 0;
   }
+  /* Stack nav links vertically and make them easy to tap */
   nav a {
-    display: block;
-    margin: 1rem 0 0 0;
+    display: block;                /* Each link on its own line */
+    margin: 0.7rem 0 0 0;          /* Space between links */
     font-size: 1.05rem;
   }
+  /* Further shrink banner height for phones */
   .banner,
   .banner-image {
     height: 56px;
   }
+  /* Reduce section paddings for content */
   .section {
     padding: 1rem 3vw;
   }
+  /* Inputs and textarea: full width and easy to tap/type */
   input, textarea {
     font-size: 1rem;
     width: 100%;
   }
+  /* Make the send button take full width and readable */
   button {
     width: 100%;
     font-size: 1rem;
     padding: 0.7rem 0;
   }
+  /* Slightly reduce left padding for bullet lists */
   ul {
     padding-left: 1rem;
   }
+  /* Make footer smaller and with less padding */
   footer {
     font-size: 0.9rem;
     padding: 1.2rem 1rem;
   }
+}
+
+/* === Hide all "about" images and containers (site-wide, all screens) === */
+.about-section .about-content,
+.about-image-container,
+.about-image,
+.about-text {
+  all: unset;
 }

@@ -132,3 +132,64 @@ footer {
     padding: 1.2rem 3vw;
   }
 }
+/* --- Responsive: Tablet and Mobile --- */
+@media (max-width: 900px) {
+  .logo {
+    width: 160px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+  }
+  .banner,
+  .banner-image {
+    height: 70px;
+  }
+  nav {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 2vw;
+    min-height: unset;
+  }
+  .logo {
+    width: 120px;
+    margin: 0 0 0.5rem 0;
+  }
+  nav {
+    width: 100%;
+    text-align: left;
+    margin: 1rem 0 0 0;
+  }
+  nav a {
+    display: block;
+    margin: 1rem 0 0 0;
+    font-size: 1.05rem;
+  }
+  .banner,
+  .banner-image {
+    height: 56px;
+  }
+  .section {
+    padding: 1rem 3vw;
+  }
+  input, textarea {
+    font-size: 1rem;
+    width: 100%;
+  }
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem 0;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+  footer {
+    font-size: 0.9rem;
+    padding: 1.2rem 1rem;
+  }
+}

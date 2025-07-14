@@ -140,14 +140,14 @@ footer {
 @media (max-width: 700px) {
   /* Stack header vertically and remove extra height */
   header {
-    flex-direction: column;        /* Stack logo and nav on top of each other */
+    flex-direction: row;        /* Stack logo and nav on top of each other */
     align-items: flex-start;       /* Align to left */
     padding: 0.5rem 2vw;           /* Less padding for smaller screens */
     min-height: unset;
   }
   /* Make logo even smaller and reset margins for phones */
   .logo {
-    width: 120px;                  /* Logo is visible but not overpowering */
+    width: 300px;                  /* Logo is visible but not overpowering */
     margin: 0 0 0.5rem 0;
     display: block;
   }

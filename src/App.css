@@ -148,13 +148,13 @@ footer {
     padding: 0.5rem 2vw;
   }
   .logo {
-    width: 110px;
+    width: 210px;
     max-width: 60vw;
-    margin: 0 0 0.5rem 0;
+    margin: -100 0 -100rem 0;
   }
   nav {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
     margin: 0.5rem 0 0 0;
   }

@@ -153,7 +153,7 @@ footer {
     margin: -100 0 -100rem 0;
   }
   nav {
-    width: 100%;
+    width: 70%;
     flex-direction: row;
     text-align: left;
     margin: -1rem 0 0 0;

@@ -1,7 +1,9 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Success from "./Success";
 import "./App.css";
 
-function App() {
+function Home() {
   return (
     <div className="App">
       {/* Banner Section */}
@@ -56,15 +58,14 @@ function App() {
             <strong>Email:</strong> info@ecovisiongh.com<br />
             <strong>Phone:</strong> +233 24 234 2588
           </p>
-          {/* Netlify Form */}
           <form
             name="contact"
             method="POST"
             data-netlify="true"
-            netlify-honeypot="bot-field"
+            action="/success"
           >
+            {/* Netlify Hidden Input */}
             <input type="hidden" name="form-name" value="contact" />
-            <input type="hidden" name="bot-field" />
             <h3>Contact Us</h3>
             <input type="text" name="name" placeholder="Your Name" required /><br />
             <input type="email" name="email" placeholder="Your Email" required /><br />
@@ -77,6 +78,17 @@ function App() {
         &copy; {new Date().getFullYear()} EcoVision Ltd. All rights reserved.
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/success" element={<Success />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -52,11 +52,11 @@ function App() {
           <h2>Location & Contact</h2>
           <p>
             <strong>Office:</strong> Accra, Ghana<br />
-            <strong>Email:</strong> info@ecovision.com (replace with your real email)<br />
-            <strong>Phone:</strong> [Your phone number]
+            <strong>Email:</strong> info@ecovisiongh.com<br />
+            <strong>Phone:</strong> +233 24 234 2588
           </p>
           <form
-            action="mailto:info@ecovision.com"
+            action="mailto:info@ecovisiongh.com"
             method="post"
             encType="text/plain"
           >

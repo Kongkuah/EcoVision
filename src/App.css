@@ -43,11 +43,11 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 400px;
   max-width: 70vw;    /* Responsive: shrink if screen is smaller */
   height: auto;
-  margin-top: -1px;
-  margin-bottom: -1px;
+  margin-top: -100px;
+  margin-bottom: -100px;
   display: block;
 }
 

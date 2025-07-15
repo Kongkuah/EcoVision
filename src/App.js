@@ -14,7 +14,7 @@ function App() {
       </div>
       <header>
         <img
-          src={process.env.PUBLIC_URL + "/bimi-logo.svg"}
+          src={process.env.PUBLIC_URL + "/logo-transparent.png"}
           alt="EcoVision Logo"
           className="logo"
         />

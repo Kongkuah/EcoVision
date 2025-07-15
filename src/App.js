@@ -25,16 +25,16 @@ function App() {
         </nav>
       </header>
       <main>
-        {/* About Section with Section Visual */}
-       <section id="about" className="section about-section">
-  <h1>EcoVision Ltd.</h1>
-  <p>
-    EcoVision Ltd. is a consulting firm specializing in environmental economics,
-    sustainability, and policy advisory. We empower governments, businesses,
-    and organizations to build a greener, more resilient future through
-    evidence-based solutions and strategic partnerships.
-  </p>
-</section>
+        {/* About Section */}
+        <section id="about" className="section about-section">
+          <h1>EcoVision Ltd.</h1>
+          <p>
+            EcoVision Ltd. is a consulting firm specializing in environmental economics,
+            sustainability, and policy advisory. We empower governments, businesses,
+            and organizations to build a greener, more resilient future through
+            evidence-based solutions and strategic partnerships.
+          </p>
+        </section>
 
         {/* Services Section */}
         <section id="services" className="section">
@@ -47,6 +47,7 @@ function App() {
             <li>Capacity building and training programs</li>
           </ul>
         </section>
+
         {/* Location & Contact */}
         <section id="location" className="section">
           <h2>Location & Contact</h2>
@@ -55,11 +56,15 @@ function App() {
             <strong>Email:</strong> info@ecovisiongh.com<br />
             <strong>Phone:</strong> +233 24 234 2588
           </p>
+          {/* Netlify Form */}
           <form
-            action="mailto:info@ecovisiongh.com"
-            method="post"
-            encType="text/plain"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
             <h3>Contact Us</h3>
             <input type="text" name="name" placeholder="Your Name" required /><br />
             <input type="email" name="email" placeholder="Your Email" required /><br />

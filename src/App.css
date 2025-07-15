@@ -46,7 +46,7 @@ header {
   width: 400px;
   max-width: 70vw;    /* Responsive: shrink if screen is smaller */
   height: auto;
-  margin-top: -100px;
+  margin-top: 0px;
   margin-bottom: -110px;
   display: block;
 }

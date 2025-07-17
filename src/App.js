@@ -29,9 +29,9 @@ function Home() {
       <main>
         {/* About Section */}
         <section id="about" className="section about-section">
-          <h1>EcoVision Ltd.</h1>
+          <h1>EcoVision Sustainability Institute</h1>
           <p>
-            EcoVision Ltd. is a consulting firm specializing in environmental economics,
+            EcoVision Sustainability Institute is a consulting firm specializing in environmental economics,
             sustainability, and policy advisory. We empower governments, businesses,
             and organizations to build a greener, more resilient future through
             evidence-based solutions and strategic partnerships.
@@ -75,7 +75,7 @@ function Home() {
         </section>
       </main>
       <footer>
-        &copy; {new Date().getFullYear()} EcoVision Ltd. All rights reserved.
+        &copy; {new Date().getFullYear()} EcoVision Sustainability Institute. All rights reserved.
       </footer>
     </div>
   );

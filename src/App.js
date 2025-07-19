@@ -31,10 +31,12 @@ function Home() {
         <section id="about" className="section about-section">
           <h1>EcoVision Sustainability Institute</h1>
           <p>
-            EcoVision Sustainability Institute is a consulting firm specializing in environmental economics,
-            sustainability, and policy advisory. We empower governments, businesses,
-            and organizations to build a greener, more resilient future through
-            evidence-based solutions and strategic partnerships.
+            EcoVision Sustainability Institute undertakes grant-funded research,
+			academic and applied studies, and offers consultancy, training,
+			and technical services to clients in government, academia, NGOs,
+			and the private sector.
+			The company also seeks and manages sponsorships and grants to support independent research,
+			and undertakes commissioned projects for organizations interested in advancing sustainability.
           </p>
         </section>
 
@@ -42,11 +44,10 @@ function Home() {
         <section id="services" className="section">
           <h2>Our Services</h2>
           <ul>
-            <li>Environmental economics consulting and policy advisory</li>
-            <li>Research, economic modelling, and impact assessments</li>
-            <li>Climate resilience and sustainability strategy</li>
-            <li>Marine & fisheries sustainability projects</li>
-            <li>Capacity building and training programs</li>
+            <li>Sustainability consulting and policy advisory</li>
+            <li>Research and impact assessments</li>
+            <li>Capacity building and training</li>
+            <li>Grant-funded research and strategic partnerships</li>
           </ul>
         </section>
 

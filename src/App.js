@@ -57,7 +57,7 @@ function Home() {
           <p>
             <strong>Office:</strong> Accra, Ghana<br />
             <strong>Email:</strong> info@ecovisiongh.com<br />
-            <strong>Phone:</strong> +233 24 234 2588
+            <strong>Phone:</strong> +233 24 762 3464
           </p>
           <form
             name="contact"
